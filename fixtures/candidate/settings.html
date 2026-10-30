@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Settings</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f8fafc; color: #0f172a; }
+  header { background: #2563eb; color: white; padding: 24px 32px; }
+  header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  main { padding: 32px; max-width: 560px; }
+  .panel { background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 24px; }
+  .row { display: block; position: relative; padding: 14px 0; border-bottom: 1px solid #f1f5f9; }
+  .row:last-of-type { border-bottom: none; }
+  .row-label { font-size: 14px; }
+  .row-sub { font-size: 12px; color: #64748b; margin-top: 2px; }
+  .toggle { width: 44px; height: 24px; border-radius: 12px; background: #2563eb; position: absolute; top: 2px; left: 150px; }
+  .toggle::after { content: ""; position: absolute; top: 2px; right: 2px; width: 20px; height: 20px; border-radius: 50%; background: white; }
+  .save-btn { margin-top: 20px; width: 90px; height: 40px; border-radius: 6px; background: #2563eb; color: white; border: none; font-size: 14px; white-space: nowrap; overflow: hidden; }
+</style>
+</head>
+<body>
+  <header><h1>Settings</h1></header>
+  <main>
+    <div class="panel">
+      <div class="row">
+        <div>
+          <div class="row-label">Email notifications</div>
+          <div class="row-sub">Get notified about account activity</div>
+        </div>
+        <div class="toggle"></div>
+      </div>
+      <div class="row">
+        <div>
+          <div class="row-label">Two-factor authentication</div>
+          <div class="row-sub">Require a code at sign-in</div>
+        </div>
+        <div class="toggle"></div>
+      </div>
+      <button class="save-btn">Save Changes</button>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,352 @@
+{
+  "diffResults": [
+    {
+      "name": "dashboard",
+      "team": "growth",
+      "width": 1024,
+      "height": 768,
+      "diffPixelCount": 136419,
+      "totalPixels": 786432,
+      "diffPercentage": 17.346572875976562,
+      "regions": [
+        {
+          "id": 0,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 1024,
+            "h": 184
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-0.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-0.after.png"
+        },
+        {
+          "id": 1,
+          "box": {
+            "x": 28,
+            "y": 172,
+            "w": 136,
+            "h": 88
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-1.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-1.after.png"
+        },
+        {
+          "id": 2,
+          "box": {
+            "x": 340,
+            "y": 172,
+            "w": 160,
+            "h": 88
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-2.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-2.after.png"
+        },
+        {
+          "id": 3,
+          "box": {
+            "x": 676,
+            "y": 172,
+            "w": 88,
+            "h": 88
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-3.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-3.after.png"
+        },
+        {
+          "id": 4,
+          "box": {
+            "x": 4,
+            "y": 244,
+            "w": 184,
+            "h": 112
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-4.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-4.after.png"
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "team": "platform",
+      "width": 1024,
+      "height": 768,
+      "diffPixelCount": 5123,
+      "totalPixels": 786432,
+      "diffPercentage": 0.6514231363932292,
+      "regions": [
+        {
+          "id": 0,
+          "box": {
+            "x": 172,
+            "y": 100,
+            "w": 112,
+            "h": 88
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-0.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-0.after.png"
+        },
+        {
+          "id": 1,
+          "box": {
+            "x": 436,
+            "y": 124,
+            "w": 88,
+            "h": 136
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-1.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-1.after.png"
+        },
+        {
+          "id": 2,
+          "box": {
+            "x": 172,
+            "y": 172,
+            "w": 112,
+            "h": 88
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-2.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-2.after.png"
+        },
+        {
+          "id": 3,
+          "box": {
+            "x": 28,
+            "y": 244,
+            "w": 232,
+            "h": 88
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-3.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-3.after.png"
+        }
+      ]
+    },
+    {
+      "name": "billing",
+      "team": "monetization",
+      "width": 1024,
+      "height": 768,
+      "diffPixelCount": 4196,
+      "totalPixels": 786432,
+      "diffPercentage": 0.5335489908854167,
+      "regions": [
+        {
+          "id": 0,
+          "box": {
+            "x": 436,
+            "y": 100,
+            "w": 160,
+            "h": 184
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\billing\\region-0.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\billing\\region-0.after.png"
+        },
+        {
+          "id": 1,
+          "box": {
+            "x": 772,
+            "y": 196,
+            "w": 136,
+            "h": 88
+          },
+          "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\billing\\region-1.before.png",
+          "afterCropPath": "D:\\vision\\reports\\latest\\crops\\billing\\region-1.after.png"
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "routeName": "dashboard",
+      "team": "growth",
+      "regionId": 0,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 184
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-0.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-0.after.png",
+      "verdict": "intentional",
+      "category": "color/branding change (mock label)",
+      "confidence": 0.9,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "dashboard",
+      "team": "growth",
+      "regionId": 1,
+      "box": {
+        "x": 28,
+        "y": 172,
+        "w": 136,
+        "h": 88
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-1.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-1.after.png",
+      "verdict": "intentional",
+      "category": "color/branding change (mock label)",
+      "confidence": 0.9,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "dashboard",
+      "team": "growth",
+      "regionId": 2,
+      "box": {
+        "x": 340,
+        "y": 172,
+        "w": 160,
+        "h": 88
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-2.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-2.after.png",
+      "verdict": "intentional",
+      "category": "color/branding change (mock label)",
+      "confidence": 0.9,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "dashboard",
+      "team": "growth",
+      "regionId": 3,
+      "box": {
+        "x": 676,
+        "y": 172,
+        "w": 88,
+        "h": 88
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-3.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-3.after.png",
+      "verdict": "intentional",
+      "category": "color/branding change (mock label)",
+      "confidence": 0.9,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "dashboard",
+      "team": "growth",
+      "regionId": 4,
+      "box": {
+        "x": 4,
+        "y": 244,
+        "w": 184,
+        "h": 112
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-4.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\dashboard\\region-4.after.png",
+      "verdict": "intentional",
+      "category": "color/branding change (mock label)",
+      "confidence": 0.9,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "settings",
+      "team": "platform",
+      "regionId": 0,
+      "box": {
+        "x": 172,
+        "y": 100,
+        "w": 112,
+        "h": 88
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-0.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-0.after.png",
+      "verdict": "bug",
+      "category": "layout/visual defect (mock label)",
+      "confidence": 0.85,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "settings",
+      "team": "platform",
+      "regionId": 1,
+      "box": {
+        "x": 436,
+        "y": 124,
+        "w": 88,
+        "h": 136
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-1.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-1.after.png",
+      "verdict": "bug",
+      "category": "layout/visual defect (mock label)",
+      "confidence": 0.85,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "settings",
+      "team": "platform",
+      "regionId": 2,
+      "box": {
+        "x": 172,
+        "y": 172,
+        "w": 112,
+        "h": 88
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-2.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-2.after.png",
+      "verdict": "bug",
+      "category": "layout/visual defect (mock label)",
+      "confidence": 0.85,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "settings",
+      "team": "platform",
+      "regionId": 3,
+      "box": {
+        "x": 28,
+        "y": 244,
+        "w": 232,
+        "h": 88
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-3.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\settings\\region-3.after.png",
+      "verdict": "bug",
+      "category": "layout/visual defect (mock label)",
+      "confidence": 0.85,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "billing",
+      "team": "monetization",
+      "regionId": 0,
+      "box": {
+        "x": 436,
+        "y": 100,
+        "w": 160,
+        "h": 184
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\billing\\region-0.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\billing\\region-0.after.png",
+      "verdict": "bug",
+      "category": "layout/visual defect (mock label)",
+      "confidence": 0.85,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    },
+    {
+      "routeName": "billing",
+      "team": "monetization",
+      "regionId": 1,
+      "box": {
+        "x": 772,
+        "y": 196,
+        "w": 136,
+        "h": 88
+      },
+      "beforeCropPath": "D:\\vision\\reports\\latest\\crops\\billing\\region-1.before.png",
+      "afterCropPath": "D:\\vision\\reports\\latest\\crops\\billing\\region-1.after.png",
+      "verdict": "bug",
+      "category": "layout/visual defect (mock label)",
+      "confidence": 0.85,
+      "reasoning": "[MOCK DATA — not model inference] Labeled from known fixture ground truth to demonstrate report rendering only."
+    }
+  ],
+  "counts": {
+    "bug": 6,
+    "intentional": 5,
+    "uncertain": 0
+  }
+}

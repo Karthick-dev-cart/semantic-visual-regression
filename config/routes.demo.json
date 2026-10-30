@@ -1,0 +1,10 @@
+{
+  "baselineBaseUrl": "file:///D:/vision/fixtures/baseline",
+  "candidateBaseUrl": "file:///D:/vision/fixtures/candidate",
+  "viewport": { "width": 1024, "height": 768 },
+  "routes": [
+    { "name": "dashboard", "path": "/dashboard.html", "team": "growth" },
+    { "name": "settings", "path": "/settings.html", "team": "platform" },
+    { "name": "billing", "path": "/billing.html", "team": "monetization" }
+  ]
+}

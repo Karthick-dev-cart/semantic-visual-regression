@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Billing</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f8fafc; color: #0f172a; }
+  header { background: #2563eb; color: white; padding: 24px 32px; }
+  header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  main { padding: 32px; }
+  .plans { display: flex; gap: 20px; }
+  .plan { flex: 1; background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 24px; text-align: center; overflow: visible; }
+  .plan img { width: 48px; height: 48px; }
+  .plan h2 { font-size: 16px; margin: 12px 0 4px; }
+  .plan .price { font-size: 26px; font-weight: 700; color: #0f172a; white-space: nowrap; }
+  .plan .price span { font-size: 13px; font-weight: 400; color: #64748b; }
+  .plan.enterprise .price { font-size: 46px; }
+</style>
+</head>
+<body>
+  <header><h1>Billing</h1></header>
+  <main>
+    <div class="plans">
+      <div class="plan">
+        <img src="../assets/icon.png" alt="Starter plan icon">
+        <h2>Starter</h2>
+        <div class="price">$9<span>/mo</span></div>
+      </div>
+      <div class="plan">
+        <img src="../assets/missing-icon.png" alt="Pro plan icon">
+        <h2>Pro</h2>
+        <div class="price">$29<span>/mo</span></div>
+      </div>
+      <div class="plan enterprise">
+        <img src="../assets/icon.png" alt="Enterprise plan icon">
+        <h2>Enterprise</h2>
+        <div class="price">$99<span>/mo</span></div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
